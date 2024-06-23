@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94DC86952C28578800919685 /* LabelsTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC86942C28578800919685 /* LabelsTutorialViewController.swift */; };
 		94E7A5462C28363300B95018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7A5452C28363300B95018 /* AppDelegate.swift */; };
 		94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7A5472C28363300B95018 /* SceneDelegate.swift */; };
 		94E7A54A2C28363300B95018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7A5492C28363300B95018 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94DC86942C28578800919685 /* LabelsTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsTutorialViewController.swift; sourceTree = "<group>"; };
 		94E7A5422C28363300B95018 /* UIKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E7A5452C28363300B95018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E7A5472C28363300B95018 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94DC86932C28573600919685 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				94DC86942C28578800919685 /* LabelsTutorialViewController.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
 		94E7A5392C28363300B95018 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				94E7A5492C28363300B95018 /* ViewController.swift */,
+				94DC86932C28573600919685 /* Label */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -189,6 +200,7 @@
 				94E7A54A2C28363300B95018 /* ViewController.swift in Sources */,
 				94E7A5462C28363300B95018 /* AppDelegate.swift in Sources */,
 				94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */,
+				94DC86952C28578800919685 /* LabelsTutorialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

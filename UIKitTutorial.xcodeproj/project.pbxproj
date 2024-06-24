@@ -11,6 +11,7 @@
 		94DC86982C285A8300919685 /* ButtonTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC86972C285A8300919685 /* ButtonTutorialViewController.swift */; };
 		94DC869B2C285E6000919685 /* ImagesTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC869A2C285E6000919685 /* ImagesTutorialViewController.swift */; };
 		94DC869E2C285F9E00919685 /* ShapesTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC869D2C285F9E00919685 /* ShapesTutorialViewController.swift */; };
+		94DC86A12C29452D00919685 /* StacksTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC86A02C29452D00919685 /* StacksTutorialViewController.swift */; };
 		94E7A5462C28363300B95018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7A5452C28363300B95018 /* AppDelegate.swift */; };
 		94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7A5472C28363300B95018 /* SceneDelegate.swift */; };
 		94E7A54A2C28363300B95018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7A5492C28363300B95018 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		94DC86972C285A8300919685 /* ButtonTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTutorialViewController.swift; sourceTree = "<group>"; };
 		94DC869A2C285E6000919685 /* ImagesTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTutorialViewController.swift; sourceTree = "<group>"; };
 		94DC869D2C285F9E00919685 /* ShapesTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorialViewController.swift; sourceTree = "<group>"; };
+		94DC86A02C29452D00919685 /* StacksTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksTutorialViewController.swift; sourceTree = "<group>"; };
 		94E7A5422C28363300B95018 /* UIKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E7A5452C28363300B95018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E7A5472C28363300B95018 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 			path = Shapes;
 			sourceTree = "<group>";
 		};
+		94DC869F2C29451200919685 /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				94DC86A02C29452D00919685 /* StacksTutorialViewController.swift */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
 		94E7A5392C28363300B95018 = {
 			isa = PBXGroup;
 			children = (
@@ -118,10 +128,11 @@
 		94E7A55A2C28365100B95018 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
-				94DC869C2C285F8D00919685 /* Shapes */,
 				94E7A5492C28363300B95018 /* ViewController.swift */,
+				94DC869C2C285F8D00919685 /* Shapes */,
 				94DC86992C285E4C00919685 /* Images */,
 				94DC86962C285A7500919685 /* Buttons */,
+				94DC869F2C29451200919685 /* Stacks */,
 				94DC86932C28573600919685 /* Label */,
 			);
 			path = Basics;
@@ -235,6 +246,7 @@
 				94E7A54A2C28363300B95018 /* ViewController.swift in Sources */,
 				94E7A5462C28363300B95018 /* AppDelegate.swift in Sources */,
 				94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */,
+				94DC86A12C29452D00919685 /* StacksTutorialViewController.swift in Sources */,
 				94DC86952C28578800919685 /* LabelsTutorialViewController.swift in Sources */,
 				94DC869E2C285F9E00919685 /* ShapesTutorialViewController.swift in Sources */,
 			);

@@ -42,6 +42,7 @@ class DelegateDesignTutorialViewController: UIViewController {
 extension DelegateDesignTutorialViewController: ActionButtonViewDelegate {
     func onPrimaryTap() {
         print("DEBUG: Primary tapped in view controller")
+        textLabel.isHidden = false
     }
     
     func onSecondaryTap() {

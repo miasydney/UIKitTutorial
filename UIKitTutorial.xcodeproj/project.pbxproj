@@ -13,6 +13,7 @@
 		94DC869E2C285F9E00919685 /* ShapesTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC869D2C285F9E00919685 /* ShapesTutorialViewController.swift */; };
 		94DC86A12C29452D00919685 /* StacksTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC86A02C29452D00919685 /* StacksTutorialViewController.swift */; };
 		94DC86A42C29485700919685 /* TextFieldTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC86A32C29485700919685 /* TextFieldTutorialViewController.swift */; };
+		94DC86A72C2B024400919685 /* ScrollViewTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC86A62C2B024400919685 /* ScrollViewTutorialViewController.swift */; };
 		94E7A5462C28363300B95018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7A5452C28363300B95018 /* AppDelegate.swift */; };
 		94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7A5472C28363300B95018 /* SceneDelegate.swift */; };
 		94E7A54A2C28363300B95018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7A5492C28363300B95018 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		94DC869D2C285F9E00919685 /* ShapesTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorialViewController.swift; sourceTree = "<group>"; };
 		94DC86A02C29452D00919685 /* StacksTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksTutorialViewController.swift; sourceTree = "<group>"; };
 		94DC86A32C29485700919685 /* TextFieldTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTutorialViewController.swift; sourceTree = "<group>"; };
+		94DC86A62C2B024400919685 /* ScrollViewTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTutorialViewController.swift; sourceTree = "<group>"; };
 		94E7A5422C28363300B95018 /* UIKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E7A5452C28363300B95018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E7A5472C28363300B95018 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 			path = TextFields;
 			sourceTree = "<group>";
 		};
+		94DC86A52C2B023300919685 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				94DC86A62C2B024400919685 /* ScrollViewTutorialViewController.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 		94E7A5392C28363300B95018 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +148,7 @@
 		94E7A55A2C28365100B95018 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
+				94DC86A52C2B023300919685 /* ScrollView */,
 				94E7A5492C28363300B95018 /* ViewController.swift */,
 				94DC869C2C285F8D00919685 /* Shapes */,
 				94DC86992C285E4C00919685 /* Images */,
@@ -258,6 +269,7 @@
 				94E7A54A2C28363300B95018 /* ViewController.swift in Sources */,
 				94E7A5462C28363300B95018 /* AppDelegate.swift in Sources */,
 				94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */,
+				94DC86A72C2B024400919685 /* ScrollViewTutorialViewController.swift in Sources */,
 				94DC86A12C29452D00919685 /* StacksTutorialViewController.swift in Sources */,
 				94DC86952C28578800919685 /* LabelsTutorialViewController.swift in Sources */,
 				94DC869E2C285F9E00919685 /* ShapesTutorialViewController.swift in Sources */,

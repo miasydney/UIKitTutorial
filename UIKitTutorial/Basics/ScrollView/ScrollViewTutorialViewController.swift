@@ -30,6 +30,8 @@ class ScrollViewTutorialViewController: UIViewController {
             stackView.addArrangedSubview(rect)
         }
         
+        scrollView.delegate = self // set delegate so that events in extension can actually get triggered
+        
         view.addSubview(scrollView)
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -53,6 +55,20 @@ class ScrollViewTutorialViewController: UIViewController {
         view.backgroundColor = .systemGray
         view.layer.cornerRadius = 16
         return view
+    }
+    
+}
+
+extension ScrollViewTutorialViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        print("DEBUG: Scroll offset: \(scrollView.contentOffset)")
+    }
+    
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        print("DEBUG: Scrollview did end decelerating")
+    }
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        print("DEBUG: Scrollview did end dragging")
     }
     
 }

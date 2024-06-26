@@ -22,6 +22,7 @@
 		94E7A54D2C28363300B95018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E7A54B2C28363300B95018 /* Main.storyboard */; };
 		94E7A54F2C28363800B95018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E7A54E2C28363800B95018 /* Assets.xcassets */; };
 		94E7A5522C28363800B95018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E7A5502C28363800B95018 /* LaunchScreen.storyboard */; };
+		94FEE5B22C2C122A00E32A00 /* TableTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5B12C2C122A00E32A00 /* TableTutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		94E7A54E2C28363800B95018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E7A5512C28363800B95018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E7A5532C28363800B95018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FEE5B12C2C122A00E32A00 /* TableTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		94E7A55A2C28365100B95018 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
+				94FEE5B02C2C120400E32A00 /* TableViews */,
 				94DC86A82C2B082700919685 /* DelegateDesign */,
 				94E7A5492C28363300B95018 /* ViewController.swift */,
 				94DC869C2C285F8D00919685 /* Shapes */,
@@ -204,6 +207,14 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		94FEE5B02C2C120400E32A00 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				94FEE5B12C2C122A00E32A00 /* TableTutorialViewController.swift */,
+			);
+			path = TableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */,
 				94DC86AC2C2B08CE00919685 /* ActionButtonView.swift in Sources */,
 				94DC86A72C2B024400919685 /* ScrollViewTutorialViewController.swift in Sources */,
+				94FEE5B22C2C122A00E32A00 /* TableTutorialViewController.swift in Sources */,
 				94DC86AA2C2B084600919685 /* DelegateDesignTutorialViewController.swift in Sources */,
 				94DC86A12C29452D00919685 /* StacksTutorialViewController.swift in Sources */,
 				94DC86952C28578800919685 /* LabelsTutorialViewController.swift in Sources */,

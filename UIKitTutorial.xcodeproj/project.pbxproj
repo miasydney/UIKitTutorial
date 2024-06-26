@@ -23,6 +23,7 @@
 		94E7A54F2C28363800B95018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E7A54E2C28363800B95018 /* Assets.xcassets */; };
 		94E7A5522C28363800B95018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E7A5502C28363800B95018 /* LaunchScreen.storyboard */; };
 		94FEE5B22C2C122A00E32A00 /* TableTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5B12C2C122A00E32A00 /* TableTutorialViewController.swift */; };
+		94FEE5B52C2C377700E32A00 /* CollectionTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5B42C2C377700E32A00 /* CollectionTutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		94E7A5512C28363800B95018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E7A5532C28363800B95018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94FEE5B12C2C122A00E32A00 /* TableTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTutorialViewController.swift; sourceTree = "<group>"; };
+		94FEE5B42C2C377700E32A00 /* CollectionTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +165,6 @@
 		94E7A55A2C28365100B95018 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
-				94FEE5B02C2C120400E32A00 /* TableViews */,
-				94DC86A82C2B082700919685 /* DelegateDesign */,
 				94E7A5492C28363300B95018 /* ViewController.swift */,
 				94DC869C2C285F8D00919685 /* Shapes */,
 				94DC86992C285E4C00919685 /* Images */,
@@ -173,6 +173,9 @@
 				94DC86A52C2B023300919685 /* ScrollView */,
 				94DC86A22C29483500919685 /* TextFields */,
 				94DC86932C28573600919685 /* Label */,
+				94DC86A82C2B082700919685 /* DelegateDesign */,
+				94FEE5B02C2C120400E32A00 /* TableViews */,
+				94FEE5B32C2C374900E32A00 /* CollectionViews */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -215,6 +218,14 @@
 				94FEE5B12C2C122A00E32A00 /* TableTutorialViewController.swift */,
 			);
 			path = TableViews;
+			sourceTree = "<group>";
+		};
+		94FEE5B32C2C374900E32A00 /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				94FEE5B42C2C377700E32A00 /* CollectionTutorialViewController.swift */,
+			);
+			path = CollectionViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +303,7 @@
 				94DC86982C285A8300919685 /* ButtonTutorialViewController.swift in Sources */,
 				94DC86A42C29485700919685 /* TextFieldTutorialViewController.swift in Sources */,
 				94E7A54A2C28363300B95018 /* ViewController.swift in Sources */,
+				94FEE5B52C2C377700E32A00 /* CollectionTutorialViewController.swift in Sources */,
 				94E7A5462C28363300B95018 /* AppDelegate.swift in Sources */,
 				94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */,
 				94DC86AC2C2B08CE00919685 /* ActionButtonView.swift in Sources */,

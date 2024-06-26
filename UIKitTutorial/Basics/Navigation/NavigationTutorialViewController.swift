@@ -30,7 +30,7 @@ class NavigationTutorialViewController: UIViewController {
     
     @objc func onPrimaryButtonTap() {
         // navigate to another screen
-        let newVC = CollectionTutorialViewController()
+        let newVC = LifecycleTutorialViewController()
 //        show(newVC, sender: self)
         
         if let nav = navigationController {

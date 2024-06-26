@@ -26,6 +26,8 @@
 		94FEE5B52C2C377700E32A00 /* CollectionTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5B42C2C377700E32A00 /* CollectionTutorialViewController.swift */; };
 		94FEE5B82C2C3BCA00E32A00 /* NavigationTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5B72C2C3BCA00E32A00 /* NavigationTutorialViewController.swift */; };
 		94FEE5BB2C2C3EDC00E32A00 /* LifecycleTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5BA2C2C3EDC00E32A00 /* LifecycleTutorialViewController.swift */; };
+		94FEE5C42C2C417F00E32A00 /* CoinPricesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5C32C2C417F00E32A00 /* CoinPricesViewController.swift */; };
+		94FEE5C62C2C42DC00E32A00 /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5C52C2C42DC00E32A00 /* CoinTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		94FEE5B42C2C377700E32A00 /* CollectionTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTutorialViewController.swift; sourceTree = "<group>"; };
 		94FEE5B72C2C3BCA00E32A00 /* NavigationTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTutorialViewController.swift; sourceTree = "<group>"; };
 		94FEE5BA2C2C3EDC00E32A00 /* LifecycleTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleTutorialViewController.swift; sourceTree = "<group>"; };
+		94FEE5C32C2C417F00E32A00 /* CoinPricesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPricesViewController.swift; sourceTree = "<group>"; };
+		94FEE5C52C2C42DC00E32A00 /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +173,6 @@
 		94E7A55A2C28365100B95018 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
-				94FEE5B92C2C3ECB00E32A00 /* Lifecycle */,
 				94E7A5492C28363300B95018 /* ViewController.swift */,
 				94DC869C2C285F8D00919685 /* Shapes */,
 				94DC86992C285E4C00919685 /* Images */,
@@ -182,6 +185,7 @@
 				94FEE5B02C2C120400E32A00 /* TableViews */,
 				94FEE5B32C2C374900E32A00 /* CollectionViews */,
 				94FEE5B62C2C3BA800E32A00 /* Navigation */,
+				94FEE5B92C2C3ECB00E32A00 /* Lifecycle */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -189,6 +193,13 @@
 		94E7A55B2C28365900B95018 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				94FEE5C22C2C414000E32A00 /* Constants */,
+				94FEE5C12C2C413F00E32A00 /* MockData */,
+				94FEE5C02C2C413E00E32A00 /* Model */,
+				94FEE5BF2C2C413D00E32A00 /* Networking */,
+				94FEE5BE2C2C413C00E32A00 /* Service */,
+				94FEE5BD2C2C413B00E32A00 /* ViewControllers */,
+				94FEE5BC2C2C413900E32A00 /* Views */,
 			);
 			path = Crypto;
 			sourceTree = "<group>";
@@ -248,6 +259,57 @@
 				94FEE5BA2C2C3EDC00E32A00 /* LifecycleTutorialViewController.swift */,
 			);
 			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		94FEE5BC2C2C413900E32A00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94FEE5C52C2C42DC00E32A00 /* CoinTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94FEE5BD2C2C413B00E32A00 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				94FEE5C32C2C417F00E32A00 /* CoinPricesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		94FEE5BE2C2C413C00E32A00 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		94FEE5BF2C2C413D00E32A00 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		94FEE5C02C2C413E00E32A00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94FEE5C12C2C413F00E32A00 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		94FEE5C22C2C414000E32A00 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +389,7 @@
 				94FEE5BB2C2C3EDC00E32A00 /* LifecycleTutorialViewController.swift in Sources */,
 				94E7A54A2C28363300B95018 /* ViewController.swift in Sources */,
 				94FEE5B52C2C377700E32A00 /* CollectionTutorialViewController.swift in Sources */,
+				94FEE5C62C2C42DC00E32A00 /* CoinTableViewCell.swift in Sources */,
 				94E7A5462C28363300B95018 /* AppDelegate.swift in Sources */,
 				94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */,
 				94DC86AC2C2B08CE00919685 /* ActionButtonView.swift in Sources */,
@@ -334,6 +397,7 @@
 				94FEE5B22C2C122A00E32A00 /* TableTutorialViewController.swift in Sources */,
 				94DC86AA2C2B084600919685 /* DelegateDesignTutorialViewController.swift in Sources */,
 				94FEE5B82C2C3BCA00E32A00 /* NavigationTutorialViewController.swift in Sources */,
+				94FEE5C42C2C417F00E32A00 /* CoinPricesViewController.swift in Sources */,
 				94DC86A12C29452D00919685 /* StacksTutorialViewController.swift in Sources */,
 				94DC86952C28578800919685 /* LabelsTutorialViewController.swift in Sources */,
 				94DC869E2C285F9E00919685 /* ShapesTutorialViewController.swift in Sources */,

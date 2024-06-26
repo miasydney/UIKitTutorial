@@ -24,6 +24,7 @@
 		94E7A5522C28363800B95018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E7A5502C28363800B95018 /* LaunchScreen.storyboard */; };
 		94FEE5B22C2C122A00E32A00 /* TableTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5B12C2C122A00E32A00 /* TableTutorialViewController.swift */; };
 		94FEE5B52C2C377700E32A00 /* CollectionTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5B42C2C377700E32A00 /* CollectionTutorialViewController.swift */; };
+		94FEE5B82C2C3BCA00E32A00 /* NavigationTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5B72C2C3BCA00E32A00 /* NavigationTutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		94E7A5532C28363800B95018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94FEE5B12C2C122A00E32A00 /* TableTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTutorialViewController.swift; sourceTree = "<group>"; };
 		94FEE5B42C2C377700E32A00 /* CollectionTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTutorialViewController.swift; sourceTree = "<group>"; };
+		94FEE5B72C2C3BCA00E32A00 /* NavigationTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		94E7A55A2C28365100B95018 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
+				94FEE5B62C2C3BA800E32A00 /* Navigation */,
 				94E7A5492C28363300B95018 /* ViewController.swift */,
 				94DC869C2C285F8D00919685 /* Shapes */,
 				94DC86992C285E4C00919685 /* Images */,
@@ -226,6 +229,14 @@
 				94FEE5B42C2C377700E32A00 /* CollectionTutorialViewController.swift */,
 			);
 			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		94FEE5B62C2C3BA800E32A00 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				94FEE5B72C2C3BCA00E32A00 /* NavigationTutorialViewController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +321,7 @@
 				94DC86A72C2B024400919685 /* ScrollViewTutorialViewController.swift in Sources */,
 				94FEE5B22C2C122A00E32A00 /* TableTutorialViewController.swift in Sources */,
 				94DC86AA2C2B084600919685 /* DelegateDesignTutorialViewController.swift in Sources */,
+				94FEE5B82C2C3BCA00E32A00 /* NavigationTutorialViewController.swift in Sources */,
 				94DC86A12C29452D00919685 /* StacksTutorialViewController.swift in Sources */,
 				94DC86952C28578800919685 /* LabelsTutorialViewController.swift in Sources */,
 				94DC869E2C285F9E00919685 /* ShapesTutorialViewController.swift in Sources */,

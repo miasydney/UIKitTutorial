@@ -6,8 +6,13 @@
 //
 
 import UIKit
+import Kingfisher
 
 class CoinTableViewCell: UITableViewCell {
+    
+    var coin: Coin? {
+        didSet { configure() }
+    }
     
     private let coinRankLabel: UILabel = {
         let label = UILabel()
@@ -55,14 +60,15 @@ class CoinTableViewCell: UITableViewCell {
     
     func configure() {
         // add mock data
-        coinRankLabel.text = "1"
-        coinNameLabel.text = "Bitcoin"
-        coinSymbolLabel.text = "BTC"
+        guard let coin else { return }
         
-        coinPriceLabel.text = "$62,323.00"
-        coinPercentChangeLabel.text = "-234%"
-        
-        coinImageView.backgroundColor = .systemGray3
+        let url = URL(string: coin.image)
+        coinImageView.kf.setImage(with: url)
+        coinRankLabel.text = "\(coin.marketCapRank)"
+        coinNameLabel.text = coin.name
+        coinSymbolLabel.text = coin.symbol
+        coinPriceLabel.text = "\(coin.currentPrice)"
+        coinPercentChangeLabel.text = "\(coin.priceChangePercentage24H)%"
     }
 
     func configureUI() {

@@ -33,6 +33,7 @@
 		94FEE5CC2C327C8E00E32A00 /* MockCoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5CB2C327C8E00E32A00 /* MockCoinDataService.swift */; };
 		94FEE5CF2C32C0EC00E32A00 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 94FEE5CE2C32C0EC00E32A00 /* Kingfisher */; };
 		94FEE5D12C32C4BD00E32A00 /* CoinDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5D02C32C4BD00E32A00 /* CoinDetailsViewController.swift */; };
+		94FEE5D42C32C99F00E32A00 /* CoinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5D32C32C99F00E32A00 /* CoinListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		94FEE5C92C326A8200E32A00 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		94FEE5CB2C327C8E00E32A00 /* MockCoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoinDataService.swift; sourceTree = "<group>"; };
 		94FEE5D02C32C4BD00E32A00 /* CoinDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewController.swift; sourceTree = "<group>"; };
+		94FEE5D32C32C99F00E32A00 /* CoinListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				94E7A55E2C28367200B95018 /* Extensions */,
 				94E7A55C2C28366700B95018 /* Resources */,
 				94E7A55D2C28366C00B95018 /* Storyboards */,
+				94FEE5D22C32C6EB00E32A00 /* SwiftUI */,
 			);
 			path = UIKitTutorial;
 			sourceTree = "<group>";
@@ -326,6 +329,14 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		94FEE5D22C32C6EB00E32A00 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				94FEE5D32C32C99F00E32A00 /* CoinListView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -420,6 +431,7 @@
 				94DC86A72C2B024400919685 /* ScrollViewTutorialViewController.swift in Sources */,
 				94FEE5B22C2C122A00E32A00 /* TableTutorialViewController.swift in Sources */,
 				94DC86AA2C2B084600919685 /* DelegateDesignTutorialViewController.swift in Sources */,
+				94FEE5D42C32C99F00E32A00 /* CoinListView.swift in Sources */,
 				94FEE5B82C2C3BCA00E32A00 /* NavigationTutorialViewController.swift in Sources */,
 				94FEE5C42C2C417F00E32A00 /* CoinPricesViewController.swift in Sources */,
 				94DC86A12C29452D00919685 /* StacksTutorialViewController.swift in Sources */,

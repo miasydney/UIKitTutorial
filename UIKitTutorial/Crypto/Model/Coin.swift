@@ -11,12 +11,14 @@ import Foundation
 struct Coin: Codable {
     let id, symbol, name: String
     let image: String
-    let currentPrice, marketCap, marketCapRank: Int
-    let totalVolume, high24H, low24H: Int
+    let currentPrice: Double
+    let marketCap: Double
+    let marketCapRank: Int
+    let totalVolume, high24H, low24H: Double
     let priceChange24H, priceChangePercentage24H: Double
-    let marketCapChange24H: Int
+    let marketCapChange24H: Double
     let marketCapChangePercentage24H: Double
-    let ath: Int
+    let ath: Double
     let lastUpdated: String
 
     enum CodingKeys: String, CodingKey {

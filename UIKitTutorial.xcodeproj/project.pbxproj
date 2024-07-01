@@ -29,6 +29,8 @@
 		94FEE5C42C2C417F00E32A00 /* CoinPricesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5C32C2C417F00E32A00 /* CoinPricesViewController.swift */; };
 		94FEE5C62C2C42DC00E32A00 /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5C52C2C42DC00E32A00 /* CoinTableViewCell.swift */; };
 		94FEE5C82C3269BB00E32A00 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5C72C3269BB00E32A00 /* Coin.swift */; };
+		94FEE5CA2C326A8200E32A00 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5C92C326A8200E32A00 /* MockData.swift */; };
+		94FEE5CC2C327C8E00E32A00 /* MockCoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5CB2C327C8E00E32A00 /* MockCoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		94FEE5C32C2C417F00E32A00 /* CoinPricesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPricesViewController.swift; sourceTree = "<group>"; };
 		94FEE5C52C2C42DC00E32A00 /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
 		94FEE5C72C3269BB00E32A00 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		94FEE5C92C326A8200E32A00 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		94FEE5CB2C327C8E00E32A00 /* MockCoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +286,7 @@
 		94FEE5BE2C2C413C00E32A00 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				94FEE5CB2C327C8E00E32A00 /* MockCoinDataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 		94FEE5C12C2C413F00E32A00 /* MockData */ = {
 			isa = PBXGroup;
 			children = (
+				94FEE5C92C326A8200E32A00 /* MockData.swift */,
 			);
 			path = MockData;
 			sourceTree = "<group>";
@@ -387,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94DC869B2C285E6000919685 /* ImagesTutorialViewController.swift in Sources */,
+				94FEE5CC2C327C8E00E32A00 /* MockCoinDataService.swift in Sources */,
 				94DC86982C285A8300919685 /* ButtonTutorialViewController.swift in Sources */,
 				94DC86A42C29485700919685 /* TextFieldTutorialViewController.swift in Sources */,
 				94FEE5BB2C2C3EDC00E32A00 /* LifecycleTutorialViewController.swift in Sources */,
@@ -395,6 +402,7 @@
 				94FEE5B52C2C377700E32A00 /* CollectionTutorialViewController.swift in Sources */,
 				94FEE5C62C2C42DC00E32A00 /* CoinTableViewCell.swift in Sources */,
 				94E7A5462C28363300B95018 /* AppDelegate.swift in Sources */,
+				94FEE5CA2C326A8200E32A00 /* MockData.swift in Sources */,
 				94E7A5482C28363300B95018 /* SceneDelegate.swift in Sources */,
 				94DC86AC2C2B08CE00919685 /* ActionButtonView.swift in Sources */,
 				94DC86A72C2B024400919685 /* ScrollViewTutorialViewController.swift in Sources */,

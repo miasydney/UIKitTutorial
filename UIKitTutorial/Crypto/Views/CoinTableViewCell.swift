@@ -46,10 +46,23 @@ class CoinTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         configureUI()
+        configure()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func configure() {
+        // add mock data
+        coinRankLabel.text = "1"
+        coinNameLabel.text = "Bitcoin"
+        coinSymbolLabel.text = "BTC"
+        
+        coinPriceLabel.text = "$62,323.00"
+        coinPercentChangeLabel.text = "-234%"
+        
+        coinImageView.backgroundColor = .systemGray3
     }
 
     func configureUI() {
@@ -84,7 +97,7 @@ class CoinTableViewCell: UITableViewCell {
         
         contentView.addSubview(priceStack)
         priceStack.translatesAutoresizingMaskIntoConstraints = false
-        priceStack.rightAnchor.constraint(equalTo: coinImageView.rightAnchor, constant: -16).isActive = true
+        priceStack.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -16).isActive = true
         priceStack.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
     }
 }

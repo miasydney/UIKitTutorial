@@ -27,9 +27,7 @@ class CoinPricesViewController: UIViewController {
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.frame = view.frame
-        
     }
-    
 }
 
 extension CoinPricesViewController: UITableViewDataSource {

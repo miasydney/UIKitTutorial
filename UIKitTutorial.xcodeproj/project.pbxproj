@@ -32,6 +32,7 @@
 		94FEE5CA2C326A8200E32A00 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5C92C326A8200E32A00 /* MockData.swift */; };
 		94FEE5CC2C327C8E00E32A00 /* MockCoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5CB2C327C8E00E32A00 /* MockCoinDataService.swift */; };
 		94FEE5CF2C32C0EC00E32A00 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 94FEE5CE2C32C0EC00E32A00 /* Kingfisher */; };
+		94FEE5D12C32C4BD00E32A00 /* CoinDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEE5D02C32C4BD00E32A00 /* CoinDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		94FEE5C72C3269BB00E32A00 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		94FEE5C92C326A8200E32A00 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		94FEE5CB2C327C8E00E32A00 /* MockCoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoinDataService.swift; sourceTree = "<group>"; };
+		94FEE5D02C32C4BD00E32A00 /* CoinDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				94FEE5C32C2C417F00E32A00 /* CoinPricesViewController.swift */,
+				94FEE5D02C32C4BD00E32A00 /* CoinDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				94FEE5CC2C327C8E00E32A00 /* MockCoinDataService.swift in Sources */,
 				94DC86982C285A8300919685 /* ButtonTutorialViewController.swift in Sources */,
 				94DC86A42C29485700919685 /* TextFieldTutorialViewController.swift in Sources */,
+				94FEE5D12C32C4BD00E32A00 /* CoinDetailsViewController.swift in Sources */,
 				94FEE5BB2C2C3EDC00E32A00 /* LifecycleTutorialViewController.swift in Sources */,
 				94FEE5C82C3269BB00E32A00 /* Coin.swift in Sources */,
 				94E7A54A2C28363300B95018 /* ViewController.swift in Sources */,

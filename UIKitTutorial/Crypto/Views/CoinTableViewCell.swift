@@ -58,6 +58,16 @@ class CoinTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    func configure(_ coin: Coin) {
+        let url = URL(string: coin.image)
+        coinImageView.kf.setImage(with: url)
+        coinRankLabel.text = "\(coin.marketCapRank)"
+        coinNameLabel.text = coin.name
+        coinSymbolLabel.text = coin.symbol.uppercased()
+        coinPriceLabel.text = "\(coin.currentPrice)"
+        coinPercentChangeLabel.text = "\(coin.priceChangePercentage24H)%"
+    }
+    
     func configure() {
         // add mock data
         guard let coin else { return }
@@ -66,7 +76,7 @@ class CoinTableViewCell: UITableViewCell {
         coinImageView.kf.setImage(with: url)
         coinRankLabel.text = "\(coin.marketCapRank)"
         coinNameLabel.text = coin.name
-        coinSymbolLabel.text = coin.symbol
+        coinSymbolLabel.text = coin.symbol.uppercased()
         coinPriceLabel.text = "\(coin.currentPrice)"
         coinPercentChangeLabel.text = "\(coin.priceChangePercentage24H)%"
     }
@@ -75,12 +85,13 @@ class CoinTableViewCell: UITableViewCell {
         contentView.addSubview(coinRankLabel)
         coinRankLabel.translatesAutoresizingMaskIntoConstraints = false
         // center coinRankLabel Y axis and pin to the left
-        coinRankLabel.leftAnchor.constraint(equalTo: leftAnchor, constant: 16).isActive = true
+        coinRankLabel.leftAnchor.constraint(equalTo: leftAnchor, constant: 8).isActive = true
         coinRankLabel.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        coinRankLabel.widthAnchor.constraint(equalToConstant: 24).isActive = true
         
         contentView.addSubview(coinImageView)
         coinImageView.translatesAutoresizingMaskIntoConstraints = false
-        coinImageView.leftAnchor.constraint(equalTo: coinRankLabel.rightAnchor, constant: 16).isActive = true
+        coinImageView.leftAnchor.constraint(equalTo: coinRankLabel.rightAnchor, constant: 4).isActive = true
         coinImageView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
         coinImageView.heightAnchor.constraint(equalToConstant: 32).isActive = true
         coinImageView.widthAnchor.constraint(equalToConstant: 32).isActive = true

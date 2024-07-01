@@ -55,7 +55,8 @@ extension CoinPricesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // render cell
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath) as! CoinTableViewCell
-        cell.coin = coins[indexPath.row]
+//        cell.coin = coins[indexPath.row] // one method
+        cell.configure(coins[indexPath.row])// alternative method, pass each coin
         return cell
     }
     
